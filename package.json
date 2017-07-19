@@ -1,0 +1,23 @@
+{
+  "name": "hello-docker",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodgjame/hello-docker.git"
+  },
+  "author": "James Rodgers <james.rodgers@ctl.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodgjame/hello-docker/issues"
+  },
+  "homepage": "https://github.com/rodgjame/hello-docker#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
